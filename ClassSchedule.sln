@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassSchedule", "ClassSchedule\ClassSchedule.csproj", "{B13ED2D2-1409-46F9-982B-F3783ECF8508}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassScheduleGUI", "ClassScheduleGUI\ClassScheduleGUI.csproj", "{B13ED2D2-1409-46F9-982B-F3783ECF8508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceControl", "DeviceControl\DeviceControl.csproj", "{957F957C-205D-43AB-9C7C-93CE95BD8859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{8968F4A1-E063-4613-BC06-13FB1EE646C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B13ED2D2-1409-46F9-982B-F3783ECF8508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B13ED2D2-1409-46F9-982B-F3783ECF8508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B13ED2D2-1409-46F9-982B-F3783ECF8508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957F957C-205D-43AB-9C7C-93CE95BD8859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957F957C-205D-43AB-9C7C-93CE95BD8859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957F957C-205D-43AB-9C7C-93CE95BD8859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957F957C-205D-43AB-9C7C-93CE95BD8859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8968F4A1-E063-4613-BC06-13FB1EE646C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8968F4A1-E063-4613-BC06-13FB1EE646C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8968F4A1-E063-4613-BC06-13FB1EE646C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8968F4A1-E063-4613-BC06-13FB1EE646C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
