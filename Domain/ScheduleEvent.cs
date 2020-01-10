@@ -2,43 +2,22 @@
 
 namespace Kabab.ClassSchedule.Domain
 {
+    [Serializable]
     public class ScheduleEvent
     {
-        private ScheduleEventType eventType;
+        public ScheduleEventType EventType { get; set; }
 
-        private DateTime startTime;
+        public DateTime StartTime { get; set; }
 
-        private TimeSpan duration;
+        public TimeSpan Duration { get; set; }
+
+        public ScheduleEvent() { }
 
         public ScheduleEvent(ScheduleEventType eventType, DateTime startTime, TimeSpan duration)
         {
-            this.eventType = eventType;
-            this.startTime = startTime;
-            this.duration = duration;
-        }
-
-        public ScheduleEventType EventType
-        {
-            get
-            {
-                return this.eventType;
-            }
-        }
-
-        public DateTime StartTime
-        {
-            get
-            {
-                return this.startTime;
-            }
-        }
-
-        public TimeSpan Duration
-        {
-            get
-            {
-                return this.duration;
-            }
+            this.EventType = eventType;
+            this.StartTime = startTime;
+            this.Duration = duration;
         }
     }
 }

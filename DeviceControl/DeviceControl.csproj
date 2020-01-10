@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UsbDeviceFinder.cs" />
+    <Compile Include="DeviceFinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="USBDeviceInfo.cs" />
   </ItemGroup>
