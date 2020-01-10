@@ -2,7 +2,6 @@
 using System.Management;
 using System.Collections.Generic;
 using System.IO.Ports;
-using System.Linq;
 
 namespace Kabab.ClassSchedule.DeviceControl
 {

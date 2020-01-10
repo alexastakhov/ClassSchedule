@@ -28,7 +28,7 @@ namespace Kabab.ClassSchedule.Gui
 
         private void UpdateDeviceList()
         {
-            var devices = UsbDeviceFinder.GetDeviceList();
+            var devices = DeviceFinder.GetDeviceList();
         }
     }
 }
