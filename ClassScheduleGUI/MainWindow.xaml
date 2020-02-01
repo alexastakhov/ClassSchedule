@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gui="clr-namespace:Kabab.ClassSchedule.Gui"
         mc:Ignorable="d"
         Title="Расписание звонков v.0.1" Height="550" Width="800" ResizeMode="NoResize">
     <Window.Resources>
@@ -17,6 +18,7 @@
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="FontSize" Value="14"/>
         </Style>
+        <gui:DeviceConverter x:Key="deviceConverter" />
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -48,7 +50,13 @@
             <Label Grid.Column="1" Grid.Row="3" x:Name="deviceStatusLabel" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold" Foreground="Red">Отсутствует</Label>
             <StackPanel Grid.Column="2" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
                 <TextBlock Style="{StaticResource textBlockStyle}" Margin="30,0,10,0">USB:</TextBlock>
-                <ComboBox x:Name="deviceCombo" Height="26" Width="200" ItemsSource="{Binding Path=DeviceList}"></ComboBox>
+                <ComboBox x:Name="deviceCombo" Height="26" Width="200" ItemsSource="{Binding Path=DeviceList}" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" SelectionChanged="DeviceCombo_SelectionChanged">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Converter={StaticResource deviceConverter}}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
                 <Button x:Name="deviceRefreshButton" Content="Обновить" Style="{StaticResource buttonStyle}" Width="140" Margin="10,0,30,0" Click="DeviceRefreshButton_Click"/>
             </StackPanel>
         </Grid>

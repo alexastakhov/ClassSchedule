@@ -27,7 +27,7 @@ namespace Kabab.ClassSchedule.DeviceControl
                 {
                     Console.WriteLine("\t{0} : {1}", prop.Name, prop.Value);
 
-                    if (prop.Name == "Name")
+                    if (prop.Name == "Name" && prop.Value != null)
                     {
                         foreach (var portName in comPortNames)
                         {
