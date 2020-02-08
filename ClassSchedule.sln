@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceControl", "DeviceCont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{8968F4A1-E063-4613-BC06-13FB1EE646C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainUtils", "DomainUtils\DomainUtils.csproj", "{180DAC23-AFB3-4969-940D-BCF73F8E428B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainUtilsTests", "DomainUtilsTests\DomainUtilsTests.csproj", "{38ADE49B-19D1-4A37-ABD4-132E2168B867}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{8968F4A1-E063-4613-BC06-13FB1EE646C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8968F4A1-E063-4613-BC06-13FB1EE646C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8968F4A1-E063-4613-BC06-13FB1EE646C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180DAC23-AFB3-4969-940D-BCF73F8E428B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180DAC23-AFB3-4969-940D-BCF73F8E428B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180DAC23-AFB3-4969-940D-BCF73F8E428B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180DAC23-AFB3-4969-940D-BCF73F8E428B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38ADE49B-19D1-4A37-ABD4-132E2168B867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38ADE49B-19D1-4A37-ABD4-132E2168B867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38ADE49B-19D1-4A37-ABD4-132E2168B867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38ADE49B-19D1-4A37-ABD4-132E2168B867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

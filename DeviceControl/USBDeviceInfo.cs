@@ -8,11 +8,11 @@
         /// <summary>
         /// Ctor.
         /// </summary>
-        /// <param name="name"></param>
-        /// <param name="portName"></param>
-        /// <param name="deviceID"></param>
-        /// <param name="pnpDeviceID"></param>
-        /// <param name="description"></param>
+        /// <param name="name">Device name.</param>
+        /// <param name="portName">Virtual COM port name.</param>
+        /// <param name="deviceID">Device identity.</param>
+        /// <param name="pnpDeviceID">PnP device identity.</param>
+        /// <param name="description">Device description.</param>
         public USBDeviceInfo(string name, string portName, string deviceID, string pnpDeviceID, string description)
         {
             this.Name = name;

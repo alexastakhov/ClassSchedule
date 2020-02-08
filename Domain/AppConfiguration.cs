@@ -17,11 +17,11 @@ namespace Kabab.ClassSchedule.Domain
         /// <summary>
         /// Web-service port number.
         /// </summary>
-        public int PortNumber { get; set; }
+        public int WebServicePortNumber { get; set; }
 
         /// <summary>
         /// Used COM-port.
         /// </summary>
-        public string ComPort { get; set; }
+        public string ComPortName { get; set; }
     }
 }
