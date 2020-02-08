@@ -3,7 +3,7 @@ using System;
 using System.IO;
 using System.Xml.Serialization;
 
-namespace DomainUtils
+namespace Kabab.ClassSchedule.DomainUtils
 {
     /// <summary>
     /// Application configutation reader-writer.

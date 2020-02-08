@@ -9,6 +9,11 @@ namespace Kabab.ClassSchedule.Domain
     [Serializable]
     public class AppConfiguration
     {
+        public AppConfiguration()
+        {
+            this.EventList = new List<ScheduleEvent>();
+        }
+
         /// <summary>
         /// Event collection.
         /// </summary>
